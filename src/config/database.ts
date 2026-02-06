@@ -3,7 +3,8 @@ import { logger } from '../utils/logger';
 
 export const connectDatabase = async (): Promise<void> => {
   try {
-    const mongoURI = process.env.MONGODB_URI || 'mongodb://localhost:27017/hackathon_db';
+    // Use project-specific database name to avoid collection clashes
+    const mongoURI = process.env.MONGODB_URI || 'mongodb://localhost:27017/edzy_hackathon_db';
     
     const options = {
       maxPoolSize: 10, // Maintain up to 10 socket connections
