@@ -1,4 +1,4 @@
-# Hackathon Backend API
+# Task 3 – Rate Limiter Middleware
 
 A comprehensive Node.js TypeScript backend application built with industry best practices for hackathon projects. This backend provides a robust foundation with authentication, user management, and a scalable architecture.
 
