@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "RateLimitter_Bruno_Test",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
